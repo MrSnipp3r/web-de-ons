@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .header-content {
+            display: flex;
+            align-items: center;
+        }
+        .header-content h1 {
+            margin: 0;
+            padding-right: 10px;
+        }
+        .header-content img {
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .main {
+            padding: 20px;
+        }
+        .main h2 {
+            font-size: 2em;
+            margin-top: 0;
+        }
+        .main p {
+            font-size: 1.25em;
+            line-height: 1.6;
+        }
+        .sub-title {
+            font-size: 1.5em;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+        .clip-container {
+            margin-top: 20px;
+        }
+        .clip {
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Bienvenido a la web de ONS_TWO</h1>
+            <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/c8bb813c-2860-4516-bad3-c401a8fc5e25-profile_image-300x300.png" alt="ONS_TWO">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#news">Noticias</a></li>
+                <li><a href="#social">Redes Sociales</a></li>
+                <li><a href="#events">Eventos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="main">
+        <h2>Inicio</h2>
+        <p>Bienvenido a la página web de ONS_TWO, el lugar perfecto para estar al tanto de las noticias más relevantes del canal. Aquí podrás encontrar actualizaciones diarias sobre los temas que más te interesan, descubrir nuestras redes sociales para seguirnos en todas las plataformas y no perderte ningún detalle de lo que sucede. Además, te mantendremos informado sobre los eventos más importantes que estamos organizando y participando, para que puedas ser parte de ellos y disfrutar de contenido exclusivo y experiencias únicas. Nuestra misión es brindarte toda la información que necesitas y ofrecerte una experiencia de usuario completa y enriquecedora.</p>
+        <div class="sub-title">Clips del Mes</div>
+        <div class="clip-container">
+            <div class="clip">
+                <h3>Clip Destacado 1</h3>
+                <iframe src="https://clips.twitch.tv/embed?clip=CoweringModernEelDxAbomb-Njng3UZT9izB30Nn&parent=www.yourwebsite.com" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
+            </div>
+            <div class="clip">
+                <h3>Clip Destacado 2</h3>
+                <iframe src="https://clips.twitch.tv/embed?clip=TriangularTameRuffHeyGirl-xauVm7E9nXcR_lLi&parent=www.yourwebsite.com" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
+            </div>
+            <div class="clip">
+                <h3>Clip Destacado 3</h3>
+                <iframe src="https://clips.twitch.tv/embed?clip=RespectfulSnappyOxEleGiggle-Mdy0AhXv_oI7F19O&parent=www.yourwebsite.com" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 ONS_TWO</p>
+    </footer>
+</body>
+</html>
